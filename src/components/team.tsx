@@ -8,7 +8,7 @@ const teamMembers = [
       "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: 'Alexandre Dutra',
+    name: 'Alexandre Dantas',
     title: 'Gestão Público-Privada, Comércio e Educação',
     imageUrl:
       "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -20,7 +20,7 @@ const teamMembers = [
       "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: 'Alex',
+    name: 'Alex Dutra',
     title: 'Hardware, Automação e Internet da Coisas',
     imageUrl:
       "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
