@@ -8,28 +8,28 @@ const features = [
     title: 'Foco no Produto',
     description:
       'Gerenciamos a pré-venda consultiva, a integração de processos e a gestão da mudança no cliente.',
-    image: '/images/features/1.png'
+    image: '/foco-no-produto.jpg'
   },
   {
     icon: FileSearch,
     title: 'Pré-Validação',
     description:
       'Asseguramos que o ambiente do cliente está estruturalmente pronto para a implementação.',
-    image: '/images/features/2.png'
+    image: '/pre-validacao.jpg'
   },
   {
     icon: ShoppingBag,
     title: 'Novos Mercados',
     description:
       'Levamos seu software a clientes resistentes que, de outra forma, nunca o comprariam por falta de estrutura interna.',
-    image: '/images/features/3.png'
+    image: '/novos-mercados.jpg'
   },
   {
     icon: Coins,
     title: 'Receita Recorrente',
     description:
       'O sucesso garantido pelo contrato de risco aumenta a possibilidade de retenção do cliente e a recorrência das receitas.',
-    image: '/images/features/4.png'
+    image: '/receita-recorrente.jpg'
   },
 ]
 
@@ -58,11 +58,18 @@ const Features = () => {
                   {feature.description}
                 </p>
               </CardHeader>
+
               <CardContent className="mt-auto px-0 pb-0">
-                <div className="bg-muted h-40 ml-6 rounded-tl-xl">
-                  <Image src={feature.image} alt={feature.title} width={120} height={40} />
+                <div className="bg-muted h-40 ml-6 rounded-tl-xl overflow-hidden relative">
+                  <Image 
+                    src={feature.image} 
+                    alt={feature.title}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </CardContent>
+
             </Card>
           ))}
         </div>
