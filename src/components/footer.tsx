@@ -1,29 +1,23 @@
-import { Separator } from "@/components/ui/separator";
-import {
-  DribbbleIcon,
-  GithubIcon,
-  TwitchIcon,
-  TwitterIcon,
-} from "lucide-react";
-import Link from "next/link";
-import { Logo } from "./logo";
+import Link from 'next/link'
+import { Logo } from './logo'
+import { Separator } from '@/components/ui/separator'
 
 const footerLinks = [
   {
-    title: "Home",
-    href: "/",
+    title: 'Home',
+    href: '/',
   },
   {
-    title: "Equipe",
-    href: "/",
+    title: 'Equipe',
+    href: '/',
   },
   {
-    title: "Expertises",
-    href: "#",
+    title: 'Expertises',
+    href: '#',
   },
   {
-    title: "Contato",
-    href: "/",
+    title: 'Contato',
+    href: '/',
   },
 ]
 
@@ -56,7 +50,7 @@ const Footer = () => {
             <span className="text-muted-foreground">
               &copy; &nbsp;
               <Link href="/" target="_blank">
-                FT Consultoria & Serviços,&nbsp;
+                FT Consultoria & Serviços, &nbsp;
               </Link>
                {new Date().getFullYear()}.
             </span>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { Brain, CalendarCheck, Code, Cpu, Database, GraduationCap, Landmark, Lightbulb, Network, ShipWheel, ShoppingCart, Wrench } from 'lucide-react'
 
@@ -74,23 +75,30 @@ const Skills = () => {
         <p className="mt-2 text-muted-foreground text-lg sm:text-xl sm:text-center">
           Somos especializados em desenvolver produtos, pessoas e equipes para apresentá-los ao mercado
         </p>
+
         <div className="mt-12 sm:mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-y-8">
-          {skills.map((skill, index) => (
-            <Link key={index} href="#">
-              <div className="flex gap-6 items-center rounded-lg -mx-2 sm:mx-0 max-w-lg">
-                <div className="h-24 aspect-square shrink-0 rounded-lg bg-muted" />
-                <div className="">
-                  <span className="font-semibold tracking-[-0.015em] text-lg">
-                    {skill.title}
-                  </span>
-                  <p className="mt-1 text-sm text-muted-foreground text-pretty">
-                    {skill.description}
-                  </p>
+          {skills.map((skill, index) => {
+            const IconComponent = skill.icon;
+            return (
+              <Link key={index} href="#">
+                <div className="flex gap-6 items-center rounded-lg -mx-2 sm:mx-0 max-w-lg">
+                  <div className="h-24 aspect-square shrink-0 rounded-lg bg-muted flex items-center justify-center">
+                    <IconComponent className="h-10 w-10" />
+                  </div>
+                  <div className="">
+                    <span className="font-semibold tracking-[-0.015em] text-lg">
+                      {skill.title}
+                    </span>
+                    <p className="mt-1 text-sm text-muted-foreground text-pretty">
+                      {skill.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-          ))}
+              </Link>
+            )
+          })}
         </div>
+
       </div>
     </div>
   )
