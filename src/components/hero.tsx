@@ -22,17 +22,21 @@ export default function Hero() {
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" className="rounded-full text-base">
-            Features <ArrowDown className="h-5! w-5!" />
+            <a className="flex items-center gap-2" href="#modelo">
+              Modelo <ArrowDown className="h-5! w-5!" />
+            </a>
           </Button>
           <Button
             variant="outline"
             size="lg"
             className="rounded-full text-base shadow-none"
           >
-            <CirclePlay className="h-5! w-5!" /> Contato
+            <a className="flex items-center gap-2" href="#contato">
+              <CirclePlay className="h-5! w-5!" /> Contato
+            </a>
           </Button>
         </div>
       </div>
     </div>
-  );
+  )
 }
