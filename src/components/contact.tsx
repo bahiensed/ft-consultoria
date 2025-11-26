@@ -7,7 +7,7 @@ const Contact = () => (
       <b className="text-muted-foreground uppercase font-semibold text-sm">
         Network
       </b>
-      <h2 className="mt-2 text-2xl md:text-4xl font-semibold tracking-tight">
+      <h2 id="contato" className="mt-2 text-2xl md:text-4xl font-semibold tracking-tight">
         Entre em Contato
       </h2>
       <p className="mt-3 text-base sm:text-lg text-muted-foreground">

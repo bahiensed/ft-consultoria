@@ -7,26 +7,33 @@ import { NavigationSheet } from "@/components/navigation-sheet";
 const Navbar = () => {
   return (
     <nav className="h-16 bg-background border-b">
-      <div className="h-full flex items-center justify-between max-w-(--breakpoint-xl) mx-auto px-4 sm:px-6 lg:px-8">
-        <Logo />
+<div className="h-full flex flex-1 items-center justify-between max-w-(--breakpoint-xl) mx-auto px-4 sm:px-6 lg:px-8">
+  {/* Logo à esquerda */}
+  <Logo />
 
-        {/* Desktop Menu */}
-        <NavMenu className="hidden md:block" />
+  {/* NavMenu no centro - usando position absolute */}
+  <div className="absolute left-1/2 transform -translate-x-1/2">
+    <NavMenu className="hidden md:block" />
+  </div>
 
-        <div className="flex items-center gap-3">
-          <Button variant="outline" className="hidden sm:inline-flex">
-            Sign In
-          </Button>
-          <Button>Get Started</Button>
+  <div className="flex items-center gap-3">
+    {/* Espaço vazio para balancear o layout */}
+    <div className="w-6"></div>
 
-          {/* Mobile Menu */}
-          <div className="md:hidden">
-            <NavigationSheet />
-          </div>
-        </div>
-      </div>
+    {/* <Button variant="outline" className="hidden sm:inline-flex">
+      Sign In
+    </Button>
+    <Button>Get Started</Button> */}
+
+    {/* Mobile Menu */}
+    <div className="md:hidden">
+      <NavigationSheet />
+    </div>
+  </div>
+</div>
+
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

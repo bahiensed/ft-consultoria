@@ -69,7 +69,7 @@ const Skills = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="max-w-(--breakpoint-xl) w-full py-10 px-6">
-        <h2 className="text-4xl md:text-[2.75rem] md:leading-[1.2] font-semibold tracking-[-0.03em] sm:max-w-xl text-pretty sm:mx-auto sm:text-center">
+        <h2 id="expertises" className="text-4xl md:text-[2.75rem] md:leading-[1.2] font-semibold tracking-[-0.03em] sm:max-w-xl text-pretty sm:mx-auto sm:text-center">
           Nossas habilidades completamente ao seu dispor
         </h2>
         <p className="mt-2 text-muted-foreground text-lg sm:text-xl sm:text-center">

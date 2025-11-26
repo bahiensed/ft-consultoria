@@ -38,12 +38,11 @@ const Team = () => {
     <div className="flex flex-col items-center justify-center py-14 px-4 sm:px-6 lg:px-8">
       <div className="text-center max-w-xl mx-auto">
 
-        <h2 className="mt-4 text-4xl sm:text-5xl font-semibold tracking-tighter">
+        <h2 id="equipe" className="mt-4 text-4xl sm:text-5xl font-semibold tracking-tighter">
           Nossa Equipe
         </h2>
         <p className="mt-4 text-base sm:text-lg text-muted-foreground">
-          Contrate uma equipe diversa e apaixonada pelo que faz
-          e fomente uma cultura que te empoderar para fazer o melhor trabalho.
+          Nossa equipe possui uma grande diversidade de profissionais especializados em desenvolver produtos e abrir novos mercados.
         </p>
       </div>
 
