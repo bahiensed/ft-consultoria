@@ -14,11 +14,10 @@ export default function Hero() {
           Conectando Soluções, Profissionais & Empresas
         </h1>
         <p className="mt-6 md:text-lg text-foreground/80">
-          Você tem uma ideia, um aplicativo em desenvolvimento
-          ou até mesmo um sistema completo?
-          Nós o ajudamos no desenvolvimento do produto, na estruturação
-          do software e, o mais importante, fazemos seu projeto chegar
-          diretamente em quem precisa dele.
+          Você tem um produto pronto, um aplicativo em construção ou mesmo uma ideia
+          a desenvolver?
+          Ajudamos você a posicionar seu produto junto a leads qualificados ou no
+          desenvolvimento e construção da sua solução.
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" className="rounded-full text-base">
