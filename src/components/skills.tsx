@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Brain, CalendarCheck, Code, Cpu, Database, GraduationCap, Landmark, Lightbulb, Network, ShipWheel, ShoppingCart, Wrench } from 'lucide-react'
+import { Bot, Brain, CalendarCheck, Code, Cpu, Database, GraduationCap, HatGlasses, Landmark, Lightbulb, Network, ShipWheel, ShoppingCart, Wrench } from 'lucide-react'
 
 const skills = [
   {
@@ -36,12 +36,17 @@ const skills = [
   {
     icon: GraduationCap,
     title: "Educação",
-    description: "Capacitação e desenvolvimento de indivíduos e equipes inteiras para os desafios do futuro.",
+    description: "Capacitação e desenvolvimento de indivíduos e squads supervisionados para os desafios do futuro.",
   },
   {
     icon: CalendarCheck,
     title: "Gestão de Projetos",
     description: "Uso das principais metodologias da indústria para entregar projetos complexos no prazo e orçamento.",
+  },
+  {
+    icon: HatGlasses,
+    title: "Agile Coach",
+    description: "Orientação de equipes em desenvolvimento Scrum e outras metodologias ágeis utilizadas na indústria.",
   },
   {
     icon: Wrench,
@@ -59,8 +64,13 @@ const skills = [
     description: "Projetar e gerenciar arquiteturas de dados massivos para extrair insights e suportar decisões estratégicas.",
   },
   {
+    icon: Bot,
+    title: "Machine Learning",
+    description: "Desenvolvimento de algoritmos estatísticos a partir de dados para extrair novos insights e predizer tendências.",
+  },
+  {
     icon: Brain,
-    title: "Machine Learning e IA",
+    title: "Inteligência Artificial",
     description: "Implementar modelos inteligentes que automatizam processos, preveem tendências e criam soluções adaptativas.",
   },
 ]
@@ -70,7 +80,7 @@ const Skills = () => {
     <div className="min-h-screen flex items-center justify-center">
       <div className="max-w-(--breakpoint-xl) w-full py-10 px-6">
         <h2 id="expertises" className="text-4xl md:text-[2.75rem] md:leading-[1.2] font-semibold tracking-[-0.03em] sm:max-w-xl text-pretty sm:mx-auto sm:text-center">
-          Nossas habilidades completamente ao seu dispor
+          Nossas expertises e serviços
         </h2>
         <p className="mt-2 text-muted-foreground text-lg sm:text-xl sm:text-center">
           Somos especializados em desenvolver produtos, pessoas e equipes para apresentá-los ao mercado
