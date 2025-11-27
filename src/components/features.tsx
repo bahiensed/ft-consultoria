@@ -4,20 +4,6 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card'
 
 const features = [
   {
-    icon: Focus,
-    title: 'Foco no Produto',
-    description:
-      'Gerenciamos a pré-venda consultiva, a integração de processos e a gestão da mudança no cliente.',
-    image: '/foco-no-produto.jpg'
-  },
-  {
-    icon: FileSearch,
-    title: 'Pré-Validação',
-    description:
-      'Asseguramos que o ambiente do cliente está estruturalmente pronto para a implementação.',
-    image: '/pre-validacao.jpg'
-  },
-  {
     icon: ShoppingBag,
     title: 'Novos Mercados',
     description:
@@ -25,10 +11,24 @@ const features = [
     image: '/novos-mercados.jpg'
   },
   {
+    icon: Focus,
+    title: 'Foco no Produto',
+    description:
+      'Identificamos quem precisa de sua solução e preparamos a integração de processos e a gestão da mudança no cliente.',
+    image: '/foco-no-produto.jpg'
+  },
+  {
+    icon: FileSearch,
+    title: 'Pré-Validação',
+    description:
+      'Nosso trabalho vai além de apresentar leads. Asseguramos que o ambiente do cliente esteja estruturado para a implementação.',
+    image: '/pre-validacao.jpg'
+  },
+  {
     icon: Coins,
     title: 'Receita Recorrente',
     description:
-      'O sucesso garantido pelo contrato de risco aumenta a possibilidade de retenção do cliente e a recorrência das receitas.',
+      'Apostamos no seu projeto, trabalhamos e ganhamos juntos com o seu sucesso.',
     image: '/receita-recorrente.jpg'
   },
 ]
