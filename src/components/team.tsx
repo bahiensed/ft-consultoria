@@ -14,7 +14,7 @@ const teamMembers = [
     title: 'Empreendedor na Área de TI, Estratégia e Liderança Tecnológica',
   },
   {
-    name: 'Alex Dutra',
+    name: 'Alex Benigno',
     title: 'Hardware, Automação e Internet da Coisas',
   },
   {
